@@ -34,7 +34,7 @@ queste domande e risposte con PHP. -->
   // echo count($questionsAnswer);
 
 ?>
-        <div class="">
+        <div style="text-align:center">
           <h2>
             <?php
               $question1 = $questionsAnswer["qa1"]["q1"];
