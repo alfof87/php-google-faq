@@ -35,13 +35,43 @@ queste domande e risposte con PHP. -->
 
 ?>
         <div class="">
-          <?php
-            // $x1 = array_keys($questionsAnswer);
-            // echo $x1
-            foreach ($questionsAnswer as $val) {
-              echo $val;
-            }
-           ?>
+          <h2>
+            <?php
+              $question1 = $questionsAnswer["qa1"]["q1"];
+              echo $question1;
+             ?>
+          </h2>
+          <p>
+            <?php
+              $answer1 = $questionsAnswer["qa1"]["a1"];
+              echo $answer1;
+             ?>
+          </p>
+          <h2>
+            <?php
+              $question2 = $questionsAnswer["qa2"]["q2"];
+              echo $question2;
+             ?>
+          </h2>
+          <p>
+            <?php
+              $answer2 = $questionsAnswer["qa2"]["a2"];
+              echo $answer2;
+             ?>
+          </p>
+          <h2>
+            <?php
+              $question3 = $questionsAnswer["qa3"]["q3"];
+              echo $question3;
+             ?>
+          </h2>
+          <p>
+            <?php
+              $answer3 = $questionsAnswer["qa3"]["a3"];
+              echo $answer3;
+             ?>
+          </p>
+
         </div>
 <!-- $db = [
   //       'teachers' => [
