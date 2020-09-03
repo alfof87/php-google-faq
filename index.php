@@ -54,7 +54,19 @@ queste domande e risposte con PHP. -->
                              determinate informazioni su di te visualizzate nei risultati di ricerca di Google, fai clic qui. Una volta che i contenuti saranno stati rimossi e
                              che Google avrà rilevato l'aggiornamento, le informazioni non verranno più visualizzate nei risultati di ricerca di Google.
                              In caso di una richiesta di rimozione urgente, è inoltre possibile visitare la nostra pagina di assistenza per avere ulteriori informazioni."
-                  ]
+                  ],
+                  "qa4" => [
+
+                      "q4" => "Quando faccio clic sui risultati della Ricerca Google, le mie chiavi di ricerca vengono inviate ai siti web?",
+                      "a4" => "In alcuni casi sì. Quando fai clic su un risultato della Ricerca Google, il tuo browser web potrebbe reindirizzare alla pagina web di
+                               destinazione anche l'indirizzo Internet, o URL, della pagina dei risultati di ricerca sotto forma di URL referrer. Talvolta, l'URL della pagina
+                               dei risultati di ricerca potrebbe contenere la query di ricerca che hai inserito. Se utilizzi la ricerca SSL (la funzione di ricerca criptata di
+                               Google), nella maggior parte dei casi i   termini di ricerca non vengono inviati come parte dell'URL negli URL referrer. Questo comportamento può
+                               fare eccezione, ad esempio se utilizzi alcuni browser meno diffusi. Ulteriori informazioni sulla ricerca SSL sono disponibili qui. Le query di
+                               ricerca o le informazioni contenute nell'URL referrer potrebbero essere disponibili mediante Google Analytics o un'API (Application Programming
+                               Interface). Inoltre, gli inserzionisti potrebbero ricevere informazioni relative all'  esatte parole chiave che hanno determinato il clic su un
+                               annuncio."
+                    ]
   ];
   // echo count($questionsAnswer);
 
@@ -96,6 +108,19 @@ queste domande e risposte con PHP. -->
             <?php
               $answer3 = $questionsAnswer["qa3"]["a3"];
               echo $answer3;
+             ?>
+          </p>
+          <br>
+          <h2>
+            <?php
+              $question4 = $questionsAnswer["qa4"]["q4"];
+              echo $question4;
+             ?>
+          </h2>
+          <p>
+            <?php
+              $answer4 = $questionsAnswer["qa4"]["a4"];
+              echo $answer4;
              ?>
           </p>
 
