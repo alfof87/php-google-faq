@@ -7,8 +7,9 @@ queste domande e risposte con PHP. -->
   $questionsAnswer = [
                 "qa1" => [
 
-                    "q1" => "Come state implementando la recente decisione della Corte di giustizia dell'Unione europea (CGUE) relativa al diritto all'oblio?",
-                    "a1" => "La recente decisione della Corte di giustizia dell'Unione europea ha profonde conseguenze per i motori di ricerca in Europa.
+                    "question" => "Come state implementando la recente decisione della Corte di giustizia dell'Unione europea (CGUE) relativa al diritto all'oblio?",
+
+                    "answer" => "La recente decisione della Corte di giustizia dell'Unione europea ha profonde conseguenze per i motori di ricerca in Europa.
                              La Corte ha stabilito che alcuni utenti hanno il diritto di chiedere ai motori di ricerca come Google di rimuovere risultati
                              relativi a chiavi di ricerca che includono il proprio nome. Per poter essere rimossi,i risultati visualizzati devono essere inadeguati,
                              irrilevanti o non più rilevanti, o eccessivi.Da quando questa decisione è stata pubblicata il 13 maggio 2014, abbiamo lavorato incessantemente
@@ -28,37 +29,33 @@ queste domande e risposte con PHP. -->
                              legge.
                              Quando cerchi un nome, potresti trovare una notifica in cui viene spiegato che i risultati potrebbero essere stati modificati nel rispetto
                              delle leggi europee per la protezione dei dati. Mostriamo questa notifica agli utenti europei quando cercano la maggior parte dei nomi,
-                             non soltanto le pagine che sono state soggette a una rimozione."
-                  ],
-                "qa2" => [
+                             non soltanto le pagine che sono state soggette a una rimozione.",
 
-                  "q2" => "Come fa Google a proteggere la mia privacy e a tenere le mie informazioni al sicuro?",
-                    "a2" => "Sappiamo che la sicurezza e la privacy sono importanti per te e lo sono anche per noi. Per noi è imperativo offrire un'elevata sicurezza
-                             e assicurarti che le tue informazioni sono al sicuro e accessibili quando ne hai bisogno.
-                             Siamo costantemente al lavoro per garantire un'elevata sicurezza, proteggere la tua privacy e rendere Google ancora più efficace ed efficiente
-                             per te. Spendiamo centinaia di milioni di dollari ogni anno per la sicurezza e ci avvaliamo di esperti di fama mondiale in materia di sicurezza
-                             dei dati per mantenere le tue informazioni al sicuro. Abbiamo inoltre sviluppato strumenti per la sicurezza e la privacy di facile utilizzo come
-                             Google Dashboard, la verifica in due passaggi e Impostazioni annunci. Così, per quanto riguarda le informazioni che condividi con Google,
-                             hai il massimo controllo.
-                             Puoi leggere ulteriori informazioni sulla sicurezza online, incluso come proteggere te e la tua famiglia online, nel Centro Google per la
-                             sicurezza online.
-                             Scopri quali misure adottiamo per garantire protezione e sicurezza alle tue informazioni personali, lasciando a te il controllo."
-                  ],
-                "qa3" => [
+                      "question" => "Come fa Google a proteggere la mia privacy e a tenere le mie informazioni al sicuro?",
 
-                    "q3" => "Come faccio a rimuovere informazioni su di me dai risultati di ricerca di Google?",
-                    "a3" => "I risultati di ricerca di Google rispecchiano i contenuti pubblicamente disponibili sul Web.
-                             I motori di ricerca non possono rimuovere i contenuti direttamente dai siti web, quindi rimuovere risultati di ricerca da Google non consente
-                             di rimuovere i contenuti dal Web. Se desideri rimuovere qualcosa dal Web, devi contattare il webmaster del sito su cui sono pubblicati i contenuti
-                             e chiedergli di apportare una modifica. Inoltre, se, ai sensi delle leggi europee per la protezione dei dati, desideri richiedere la rimozione di
-                             determinate informazioni su di te visualizzate nei risultati di ricerca di Google, fai clic qui. Una volta che i contenuti saranno stati rimossi e
-                             che Google avrà rilevato l'aggiornamento, le informazioni non verranno più visualizzate nei risultati di ricerca di Google.
-                             In caso di una richiesta di rimozione urgente, è inoltre possibile visitare la nostra pagina di assistenza per avere ulteriori informazioni."
-                  ],
-                  "qa4" => [
+                      "answer" => "Sappiamo che la sicurezza e la privacy sono importanti per te e lo sono anche per noi. Per noi è imperativo offrire un'elevata sicurezza
+                                e assicurarti che le tue informazioni sono al sicuro e accessibili quando ne hai bisogno.
+                                Siamo costantemente al lavoro per garantire un'elevata sicurezza, proteggere la tua privacy e rendere Google ancora più efficace ed efficiente
+                                per te. Spendiamo centinaia di milioni di dollari ogni anno per la sicurezza e ci avvaliamo di esperti di fama mondiale in materia di sicurezza
+                                dei dati per mantenere le tue informazioni al sicuro. Abbiamo inoltre sviluppato strumenti per la sicurezza e la privacy di facile utilizzo come
+                                Google Dashboard, la verifica in due passaggi e Impostazioni annunci. Così, per quanto riguarda le informazioni che condividi con Google,
+                                hai il massimo controllo.
+                                Puoi leggere ulteriori informazioni sulla sicurezza online, incluso come proteggere te e la tua famiglia online, nel Centro Google per la
+                                sicurezza online.
+                                Scopri quali misure adottiamo per garantire protezione e sicurezza alle tue informazioni personali, lasciando a te il controllo.",
+                      "question" => "Come faccio a rimuovere informazioni su di me dai risultati di ricerca di Google?",
 
-                      "q4" => "Quando faccio clic sui risultati della Ricerca Google, le mie chiavi di ricerca vengono inviate ai siti web?",
-                      "a4" => "In alcuni casi sì. Quando fai clic su un risultato della Ricerca Google, il tuo browser web potrebbe reindirizzare alla pagina web di
+                      "answer" => "I risultati di ricerca di Google rispecchiano i contenuti pubblicamente disponibili sul Web.
+                               I motori di ricerca non possono rimuovere i contenuti direttamente dai siti web, quindi rimuovere risultati di ricerca da Google non consente
+                               di rimuovere i contenuti dal Web. Se desideri rimuovere qualcosa dal Web, devi contattare il webmaster del sito su cui sono pubblicati i contenuti
+                               e chiedergli di apportare una modifica. Inoltre, se, ai sensi delle leggi europee per la protezione dei dati, desideri richiedere la rimozione di
+                               determinate informazioni su di te visualizzate nei risultati di ricerca di Google, fai clic qui. Una volta che i contenuti saranno stati rimossi e
+                               che Google avrà rilevato l'aggiornamento, le informazioni non verranno più visualizzate nei risultati di ricerca di Google.
+                               In caso di una richiesta di rimozione urgente, è inoltre possibile visitare la nostra pagina di assistenza per avere ulteriori informazioni.",
+
+                      "question" => "Quando faccio clic sui risultati della Ricerca Google, le mie chiavi di ricerca vengono inviate ai siti web?",
+
+                      "answer" => "In alcuni casi sì. Quando fai clic su un risultato della Ricerca Google, il tuo browser web potrebbe reindirizzare alla pagina web di
                                destinazione anche l'indirizzo Internet, o URL, della pagina dei risultati di ricerca sotto forma di URL referrer. Talvolta, l'URL della pagina
                                dei risultati di ricerca potrebbe contenere la query di ricerca che hai inserito. Se utilizzi la ricerca SSL (la funzione di ricerca criptata di
                                Google), nella maggior parte dei casi i   termini di ricerca non vengono inviati come parte dell'URL negli URL referrer. Questo comportamento può
@@ -66,62 +63,20 @@ queste domande e risposte con PHP. -->
                                ricerca o le informazioni contenute nell'URL referrer potrebbero essere disponibili mediante Google Analytics o un'API (Application Programming
                                Interface). Inoltre, gli inserzionisti potrebbero ricevere informazioni relative all'  esatte parole chiave che hanno determinato il clic su un
                                annuncio."
-                    ]
+                  ],
+
   ];
-  // echo count($questionsAnswer);
+  // echo count($qa1);
 
 ?>
         <div style="margin-left: 200px; margin-right: 200px;">
-          <h2>
-            <?php
-              $question1 = $questionsAnswer["qa1"]["q1"];
-              echo $question1;
-             ?>
-          </h2>
-          <p>
-            <?php
-              $answer1 = $questionsAnswer["qa1"]["a1"];
-              echo $answer1;
-             ?>
-          </p>
-          <br>
-          <h2>
-            <?php
-              $question2 = $questionsAnswer["qa2"]["q2"];
-              echo $question2;
-             ?>
-          </h2>
-          <p>
-            <?php
-              $answer2 = $questionsAnswer["qa2"]["a2"];
-              echo $answer2;
-             ?>
-          </p>
-          <br>
-          <h2>
-            <?php
-              $question3 = $questionsAnswer["qa3"]["q3"];
-              echo $question3;
-             ?>
-          </h2>
-          <p>
-            <?php
-              $answer3 = $questionsAnswer["qa3"]["a3"];
-              echo $answer3;
-             ?>
-          </p>
-          <br>
-          <h2>
-            <?php
-              $question4 = $questionsAnswer["qa4"]["q4"];
-              echo $question4;
-             ?>
-          </h2>
-          <p>
-            <?php
-              $answer4 = $questionsAnswer["qa4"]["a4"];
-              echo $answer4;
-             ?>
-          </p>
+          <?php
+            for ($i=0; $i < count($qa1); $i++) {
+              // $x = $questionsAnswer["qa1"]["question"];
+              // echo $x;
+              $x = array_keys("qa1");
+              echo $x;
+            }
 
+           ?>
         </div>
