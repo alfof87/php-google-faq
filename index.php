@@ -71,12 +71,24 @@ queste domande e risposte con PHP. -->
 ?>
         <div style="margin-left: 200px; margin-right: 200px;">
           <?php
-            for ($i=0; $i < count($qa1); $i++) {
-              // $x = $questionsAnswer["qa1"]["question"];
-              // echo $x;
-              $x = array_keys("qa1");
-              echo $x;
+
+            $varQa1 = $questionsAnswer["qa1"];
+            echo count($varQa1);
+            echo "<br>";
+            for ($i=0; $i < 6; $i++) {
+              $varQ = $questionsAnswer["qa1"]["question"];
+              echo $varQ;
+              echo "<br>";
+              $varA = $questionsAnswer["qa1"]["answer"];
+              echo $varA;
+              echo "<br>";
             }
+            // foreach ($questionsAnswer as $k) {
+            //   foreach ($k as $x) {
+            //     echo $x;
+            //   }
+            //
+            // }
 
            ?>
         </div>
